@@ -1,0 +1,4 @@
+"0","ggplot(mpg) + "
+"0","  geom_bar(aes(x = class)) + "
+"0","  coord_polar(theta = 'y') + "
+"0","  expand_limits(y = 70)"

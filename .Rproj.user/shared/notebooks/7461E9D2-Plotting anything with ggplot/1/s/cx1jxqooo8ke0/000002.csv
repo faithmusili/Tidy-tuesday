@@ -1,0 +1,2 @@
+"0","ggplot(mpg) + "
+"0","  stat_count(aes(x = class))## default geom for stat_count is geom_bar"

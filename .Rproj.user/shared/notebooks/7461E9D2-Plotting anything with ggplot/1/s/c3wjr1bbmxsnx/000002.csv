@@ -1,0 +1,3 @@
+"0","p1 <- ggplot(msleep) + "
+"0","  geom_boxplot(aes(x = sleep_total, y = vore, fill = vore))"
+"0","p1"

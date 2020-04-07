@@ -1,0 +1,4 @@
+"0","library(ggthemes)"
+"0","p + "
+"0","  scale_colour_excel() + "
+"0","  theme_excel()"

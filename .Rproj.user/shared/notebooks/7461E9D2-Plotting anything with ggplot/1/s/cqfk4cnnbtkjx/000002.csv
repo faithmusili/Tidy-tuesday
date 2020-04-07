@@ -1,0 +1,3 @@
+"0","ggplot(faithful) + "
+"0","  geom_point(aes(x = eruptions, y = waiting),"
+"0","             colour = 'steelblue')## placing color inside aes is wrong"

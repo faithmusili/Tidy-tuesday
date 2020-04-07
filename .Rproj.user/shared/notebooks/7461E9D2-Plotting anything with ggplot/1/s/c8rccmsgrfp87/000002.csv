@@ -1,0 +1,8 @@
+"0","ggplot(pie) + "
+"0","  geom_col(aes(x = 0, y = amount, fill = state)) + "
+"0","  coord_polar(theta = 'y') + "
+"0","  scale_fill_tableau(name = NULL,"
+"0","                     guide = guide_legend(ncol = 2)) + "
+"0","  theme_void() + "
+"0","  theme(legend.position = 'top', "
+"0","        legend.justification = 'left')"

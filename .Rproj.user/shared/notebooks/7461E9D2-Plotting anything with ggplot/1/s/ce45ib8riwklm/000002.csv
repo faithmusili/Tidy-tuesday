@@ -1,0 +1,2 @@
+"0","ggplot(faithful) + "
+"0","  geom_point(aes(x = eruptions, y = waiting),size = 3,alpha = 0.5,shape = ""square"")## alpha varies fron 0(transparent) to 1(opaque))"

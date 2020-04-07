@@ -1,0 +1,53 @@
+---
+title: "Tour de France"
+date: "4/7/2020"
+author: "Faith Musili"
+output: html_document
+---
+```{r load packages}
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(scales)
+```
+
+
+```{r Get the Data}
+
+tdf_winners <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-04-07/tdf_winners.csv')
+
+tuesdata <- tidytuesdayR::tt_load('2020-04-07')
+
+tdf_winners <- tuesdata$tdf_winners %>% 
+  data.frame()
+  
+tdf_stages <- tuesdata$tdf_stages %>% data.frame()
+stage_tdf <- tuesdata$stage_data %>% data.frame() 
+```
+
+```{r explore the data--- winners}
+dim(tdf_winners)
+names(tdf_winners)
+glimpse(tdf_winners)
+class(tdf_winners)
+
+distance <- ggplot(tdf_winners)+
+  geom_point(aes(x=year(start_date), y = distance, color = time_overall < 150))+
+  scale_x_continuous(breaks = pretty_breaks(7))+
+  scale_y_continuous(breaks = pretty_breaks(6),labels = comma)+
+  labs(x = "Year", y= "Distance in Km")+
+  theme_bw()+
+  theme(plot.title = element_text(face =  "bold", hjust = 0.5))
+
+ age <- ggplot(tdf_winners, aes(x=year(start_date), y = round(age)))+
+  geom_point(size=2,  aes(color =  age < 30))+
+  scale_x_continuous(breaks = pretty_breaks(7))+
+  scale_y_continuous(breaks = pretty_breaks(6),labels = comma)+
+  labs(x = "Year", y= "Age")+
+   scale_colour_brewer(palette = "Set2")
+
+  
+ distance / age +plot_layout(heights = c(1.5,1))+
+   plot_annotation(title = "Winners of Tour de France")
+```
+

@@ -1,0 +1,5 @@
+"0","p1 <- ggplot(mtcars[mtcars$gear == 3,]) + "
+"0","  geom_point(aes(x = disp, y = mpg))"
+"0","p2 <- ggplot(mtcars[mtcars$gear == 4,]) + "
+"0","  geom_point(aes(x = disp, y = mpg))"
+"0","p1 + p2  & scale_y_continuous(limits = c(10,40))"

@@ -1,0 +1,5 @@
+"0","p_all <- p_all & theme(legend.position = 'none')"
+"0","p_all + plot_annotation("
+"0","  title = 'Mammalian sleep patterns',"
+"0","  tag_levels = ""A"""
+"0",")"

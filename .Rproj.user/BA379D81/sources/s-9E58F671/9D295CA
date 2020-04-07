@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586271853352.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9D295CA",
+    "lastKnownWriteTime" : 1586280591,
+    "last_content_update" : 1586280591239,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/Learning/TidyTuesday/Tour de France.Rmd",
+    "project_path" : "Tour de France.Rmd",
+    "properties" : {
+        "cursorPosition" : "34,80",
+        "scrollLine" : "17",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

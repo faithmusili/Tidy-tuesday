@@ -1,0 +1,3 @@
+"0","ggplot(mpg) + "
+"0","  geom_bar(aes(x = hwy)) + "
+"0","  scale_x_binned(n.breaks = 30, guide = guide_axis(n.dodge = 2))"

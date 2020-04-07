@@ -1,0 +1,2 @@
+"0","ggplot(mpg_counted) + "
+"0","  geom_col(aes(x = class, y = count))## same as geom_bar only that here we dont have to specify the stat"

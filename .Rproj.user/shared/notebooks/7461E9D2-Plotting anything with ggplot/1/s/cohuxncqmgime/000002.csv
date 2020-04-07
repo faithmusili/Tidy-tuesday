@@ -1,0 +1,4 @@
+"0","ggplot(mpg) + "
+"0","  geom_bar(aes(y = class)) + "
+"0","  facet_wrap(~year) + "
+"0","  theme_minimal()"

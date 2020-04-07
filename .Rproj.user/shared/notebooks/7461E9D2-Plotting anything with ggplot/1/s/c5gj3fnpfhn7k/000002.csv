@@ -1,0 +1,3 @@
+"0","ggplot(mpg) + "
+"0","  geom_bar(aes(x = class)) + "
+"0","  coord_cartesian(ylim = c(0, 40))## shows values above 40 unlike earlier"

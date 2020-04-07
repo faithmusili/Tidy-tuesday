@@ -1,0 +1,19 @@
+"0","library(ggraph)"
+"0","library(tidygraph)"
+"2","
+Attaching package: ‘tidygraph’
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
+"0","graph <- create_notable('zachary') %>% "
+"0","  mutate(clique = as.factor(group_infomap()))"
+"0","ggraph(graph) + "
+"0","  geom_mark_hull(aes(x, y, color = clique)) + "
+"0","  geom_edge_link() + "
+"0","  geom_node_point(size = 2,aes(colour=clique))"
+"2","Using `stress` as default layout
+"

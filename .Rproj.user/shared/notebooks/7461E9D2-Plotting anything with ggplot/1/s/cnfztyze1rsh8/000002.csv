@@ -1,0 +1,2 @@
+"0","ggplot(faithful) + "
+"0","  geom_point(aes(x = eruptions, y = waiting, colour = eruptions < 3))"

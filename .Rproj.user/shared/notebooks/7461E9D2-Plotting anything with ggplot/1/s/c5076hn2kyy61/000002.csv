@@ -1,0 +1,3 @@
+"0","ggplot(pie) + "
+"0","  geom_col(aes(x = 0, y = amount, fill = state)) + "
+"0","  coord_polar(theta = 'y')"

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586274596171.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DD4BFC4D",
+    "lastKnownWriteTime" : 140565689663488,
+    "last_content_update" : 1586274596171,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "FA180E06",
+        "caption" : "tdf_winners",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=tdf_winners&cache_key=FA180E06",
+        "displayedObservations" : 106,
+        "environment" : "",
+        "expression" : "tdf_winners",
+        "object" : "tdf_winners",
+        "preview" : 0,
+        "totalObservations" : 106,
+        "variables" : 19
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

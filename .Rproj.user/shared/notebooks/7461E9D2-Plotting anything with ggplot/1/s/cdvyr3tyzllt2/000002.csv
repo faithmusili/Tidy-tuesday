@@ -1,0 +1,2 @@
+"0","ggplot(faithful) + "
+"0","  geom_histogram(aes(x = eruptions, fill =  eruptions < 3.2))"

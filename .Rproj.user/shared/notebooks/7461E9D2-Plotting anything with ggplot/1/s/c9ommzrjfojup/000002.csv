@@ -1,0 +1,6 @@
+"0","iris_clust <- hclust(dist(iris[, 1:4]))"
+"0","ggraph(iris_clust) + "
+"0","  geom_edge_bend() + "
+"0","  geom_node_point(aes(filter = leaf))"
+"2","Using `dendrogram` as default layout
+"

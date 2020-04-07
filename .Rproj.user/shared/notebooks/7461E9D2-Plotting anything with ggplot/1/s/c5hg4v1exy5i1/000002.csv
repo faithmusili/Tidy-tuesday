@@ -1,0 +1,2 @@
+"0","ggplot(mpg) + "
+"0","  geom_density(aes(x = hwy))## you can access compourd variable by ?stat_density under computed variables"

@@ -1,0 +1,3 @@
+"0","data(""mpg"")"
+"0","ggplot(mpg) + "
+"0","  geom_bar(aes(x = class))## uses stat=count by default"

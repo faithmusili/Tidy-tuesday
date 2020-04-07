@@ -1,0 +1,5 @@
+"0","library(dplyr)"
+"0","mpg_counted <- mpg %>% "
+"0","  count(class, name = 'count')"
+"0","ggplot(mpg_counted) + "
+"0","  geom_bar(aes(x = class, y = count), stat = 'identity')"

@@ -1,0 +1,3 @@
+"0","ggplot(mpg) + "
+"0","  geom_point(aes(x = displ, y = hwy, colour = class)) + "
+"0","  scale_colour_brewer(name=""CLASS"",type = 'qual')##name is used to specify legend header."

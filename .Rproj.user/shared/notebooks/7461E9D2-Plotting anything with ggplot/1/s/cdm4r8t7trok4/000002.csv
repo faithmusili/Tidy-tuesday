@@ -1,0 +1,2 @@
+"0","ggplot(economics) + "
+"0","  geom_line(aes(x = date, y = unemploy))"

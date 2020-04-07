@@ -1,0 +1,6 @@
+"0","highschool_gr <- as_tbl_graph(highschool)"
+"0","ggraph(highschool_gr) + "
+"0","  geom_edge_fan() + "
+"0","  geom_node_point()"
+"2","Using `stress` as default layout
+"

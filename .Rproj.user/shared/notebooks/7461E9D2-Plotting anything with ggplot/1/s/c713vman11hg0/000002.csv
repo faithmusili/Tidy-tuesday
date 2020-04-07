@@ -1,0 +1,4 @@
+"0","p3 <- ggplot(msleep) + "
+"0","  geom_point(aes(x = bodywt, y = sleep_total, colour = vore)) + "
+"0","  scale_x_log10()"
+"0","p3"

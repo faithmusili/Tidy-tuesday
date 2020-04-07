@@ -1,0 +1,4 @@
+"0","library(ggrepel)"
+"0","ggplot(mtcars, aes(x = disp, y = mpg)) + "
+"0","  geom_point() + "
+"0","  geom_text_repel(aes(label = row.names(mtcars)))"

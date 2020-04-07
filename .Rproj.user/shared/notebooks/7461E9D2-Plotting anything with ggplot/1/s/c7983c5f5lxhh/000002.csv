@@ -1,0 +1,19 @@
+"0","p <- ggplot(mtcars, aes(mpg, wt)) +"
+"0","  geom_point(aes(color = factor(carb))) +"
+"0","  labs("
+"0","    x = 'Fuel efficiency (mpg)', "
+"0","    y = 'Weight (tons)',"
+"0","    title = 'Seminal ggplot2 example',"
+"0","    subtitle = 'A plot to show off different themes',"
+"0","    caption = 'Source: It???s mtcars ??? everyone uses it'"
+"0","  )"
+"0","library(hrbrthemes)"
+"2","NOTE: Either Arial Narrow or Roboto Condensed fonts are required to use these themes.
+"
+"2","      Please use hrbrthemes::import_roboto_condensed() to install Roboto Condensed and
+"
+"2","      if Arial Narrow is not on your system, please see https://bit.ly/arialnarrow
+"
+"0","p + "
+"0","  scale_colour_ipsum() + "
+"0","  theme_ipsum()"

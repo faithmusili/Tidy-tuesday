@@ -1,0 +1,8 @@
+"0","mtcars2 <- mtcars"
+"0","mtcars2$label <- rownames(mtcars2)"
+"0","points_to_label <- sample(nrow(mtcars), 10)"
+"0","mtcars2$label[-points_to_label] <- """""
+"0",""
+"0","ggplot(mtcars2, aes(x = disp, y = mpg)) + "
+"0","  geom_point() + "
+"0","  geom_text_repel(aes(label = label))"

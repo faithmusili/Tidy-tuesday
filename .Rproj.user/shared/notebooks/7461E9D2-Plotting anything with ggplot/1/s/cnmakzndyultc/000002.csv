@@ -1,0 +1,6 @@
+"0","library(ggforce)"
+"0","ggplot(mtcars, aes(x = disp, y = mpg)) +"
+"0","  geom_point() + "
+"0","  geom_mark_ellipse(aes(filter = gear == 4,"
+"0","                        label = '4 gear cars',"
+"0","                        description = 'Cars with fewer gears tend to both have higher yield and lower displacement'))"

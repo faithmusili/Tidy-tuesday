@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586275725084.000,
+    "dirty" : false,
+    "encoding" : "ASCII",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "991874D5",
+    "lastKnownWriteTime" : 1586166077,
+    "last_content_update" : 1586275746303,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/Learning/Webinars/Plotting anything with ggplot/Plotting anything with ggplot.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "292,2",
+        "last_setup_crc32" : "9E58F671bb338d19",
+        "scrollLine" : "290"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
